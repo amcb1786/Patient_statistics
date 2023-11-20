@@ -58,7 +58,7 @@ print(average_age)
 # In[168]:
 
 
-# Number of make and female patients 
+# Number of male and female patients 
 male = (df[' Gender'] == ' Male').sum()
 female = (df[' Gender'] == ' Female').sum()
 print(f"The number of male patients is {male} and the number of feamle patients is {female}.")
